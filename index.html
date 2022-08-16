@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyPortfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+  <body>
+
+
+
+
+    <div id="header">
+        <nav style="">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="bi bi-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="bi bi-list" onclick="openmenu()"></i>
+        </nav>
+        
+        </div>
+        
+        
+        <div class="container-fluid ">
+
+            <div class="row profile_sec">
+                <div class="col-md-6 order-md-2 profile">
+                    <div class="profile_1">
+                        <img src="img/p.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 pr_name">
+                    <h1>Hi, I'm <br><span>Sagar Choudhary</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- ------------------------about--------------------- -->
+    <div id="about">
+        <div class="con">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="img/user.png" alt="">
+                </div>
+                <div class="about_col_2">
+                    <h1 class="sub_title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, dolores quidem porro laboriosam itaque quis voluptates. Nihil, inventore neque aliquam quia voluptate adipisci ea fugit quibusdam, deserunt a maxime culpa!</p>
+                    
+                    <div class="tab_titles">
+                        <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab_links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab_links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab_contants active_tab" id="skills">
+                        <ul >
+                            <li><span>UI/UX</span><br>Designing Web/App/Game interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Game Development</span><br>Building 2d and 3d Games</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab_contants" id="experience">
+                        <ul >
+                            <li><span>2022 - Current</span><br>Animater and Project Manager in ZITS </li>
+                            <!-- <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Game Development</span><br>Building 2d and 3d Games</li> -->
+                        </ul>
+                    </div>
+
+                    <div class="tab_contants" id="education">
+                        <ul >
+                            <li><span>2022</span><br>B.Tech from MITRC</li>
+                            <li><span>2018</span><br>PCM from Achievers academy</li>
+                            <!-- <li><span>Game Development</span><br>Building 2d and 3d Games</li> -->
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------------ services--------------------- -->
+    <div id="services">
+        <div class="con">
+            <h1 class="sub_title">My Services</h1>
+            <div class="services_list">
+                <div>
+                    <i class="bi bi-code-slash"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, nemo ex quae sapiente totam consectetur? Recusandae ex at ut voluptate et sequi facilis. Officiis quibusdam illo quo ab, vel omnis!</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="bi bi-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, nemo ex quae sapiente totam consectetur? Recusandae ex at ut voluptate et sequi facilis. Officiis quibusdam illo quo ab, vel omnis!</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="bi bi-controller"></i>
+                    <h2>Game Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, nemo ex quae sapiente totam consectetur? Recusandae ex at ut voluptate et sequi facilis. Officiis quibusdam illo quo ab, vel omnis!</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+
+<!-- ------------------------ portfolio--------------------- -->
+    <div id="portfolio">
+        <div class="con">
+            <h1 class="sub_title">My Work</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="img/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quaerat dolorum suscipit quod in hic!</p>
+                        <a href=""><i class="bi bi-controller"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quaerat dolorum suscipit quod in hic!</p>
+                        <a href=""><i class="bi bi-controller"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Art Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quaerat dolorum suscipit quod in hic!</p>
+                        <a href=""><i class="bi bi-controller"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+
+<!-- ------------------------ contact--------------------- -->
+
+<div id="contact">
+    <div class="con">
+        <div class="row">
+            <div class="contact_left">
+                <h1 class="sub_title">Contact Me</h1>
+                <p><i class="bi bi-envelope"></i>choudharysagar215@gmail.com</p>
+                <p><i class="bi bi-phone"></i>8875160970</p>
+                <div class="social_icon">
+                    <a href="https://www.facebook.com/profile.php?id=100026181290170"><i class="bi bi-facebook"></i></a>
+                    <a href="https://wa.me/9950792670"><i class="bi bi-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/choudhary4598/?hl=en"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sagar-choudhary-678589239/"><i class="bi bi-linkedin"></i></a>
+
+                </div>
+                <a href="img/my-cv.pdf" download class="btn btn_2">Download CV</a>
+            </div>
+            <div class="contact_right">
+                <form action="" name="submit-to-google-sheet">
+                    <input type="text" name="Name" id="" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn_2">Submit</button>
+                    <!-- <input type="text" name="" id=""> -->
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>All Copyright Revived By .......</p>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script>
+    var tablinks = document.getElementsByClassName("tab_links");
+    var tabcontants = document.getElementsByClassName("tab_contants");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active_link");
+        }
+        for(tabcontant of tabcontants){
+            tabcontant.classList.remove("active_tab");
+        }
+        event.currentTarget.classList.add("active_link");
+        document.getElementById(tabname).classList.add("active_tab");
+
+    }
+
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-50%";
+    }
+  </script>
+
+
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz2lijeLL8BJxDYiImX3hCGnrd9zE7cYik6T1DnCq_FdzPS2SQ2fqalS7RR_dsHXBSbnQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
